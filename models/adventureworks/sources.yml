@@ -1,0 +1,35 @@
+version: 2
+
+sources:
+  - name: adventureworks
+    tables:
+      - name: humanresources_department
+        columns:
+          - name: departmentid
+            tests:
+                - unique
+                - not_null
+      - name: humanresources_employee
+        columns:
+          - name: businessentityid
+            tests:
+                - unique
+                - not_null
+      - name: humanresources_employeedepartmenthistory
+        columns:
+          - name: businessentityid
+            tests:
+                - unique
+                - not_null
+      - name: humanresources_employeepayhistory
+        columns:
+          - name: businessentityid
+            tests:
+                - unique
+                - not_null
+      - name: humanresources_shift
+        columns:
+          - name: shiftid
+            tests:
+                - unique
+                - not_null
