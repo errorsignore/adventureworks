@@ -1,0 +1,11 @@
+version: 2
+
+models:
+    -   name: dim_employees
+        description: "Nossa tabela de funcionários"
+        columns:
+            -   name: businessentityid
+                description: "A chave primária original da tabela"
+                tests:
+                    - unique
+                    - not_null
