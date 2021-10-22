@@ -3,6 +3,8 @@ with source_data as(
     salesorderid
     ,salesorderdetailid
     ,productid
+    ,orderqty
+    ,unitprice
 
 
 

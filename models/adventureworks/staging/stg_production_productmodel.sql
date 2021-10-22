@@ -1,7 +1,7 @@
 with source_data as(
     SELECT
     productmodelid
-    ,name as modelo_produto
+    ,name
 
 
 
