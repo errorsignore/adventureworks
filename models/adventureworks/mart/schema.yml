@@ -9,3 +9,19 @@ models:
                 tests:
                     - unique
                     - not_null
+    -   name: dim_products
+        description: "Nossa tabela de produtos"
+        columns:
+            -   name: productid
+                description: "A chave primária original da tabela"
+                tests:
+                    - unique
+                    - not_null
+    -   name: fact_sales
+        description: "Nossa tabela de produtos"
+        columns:
+            -   name: salesorderid
+                description: "A chave primária original da tabela"
+                tests:
+                    - unique
+                    - not_null        

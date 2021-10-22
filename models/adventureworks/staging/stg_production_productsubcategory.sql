@@ -2,7 +2,7 @@ with source_data as(
     SELECT
     productsubcategoryid
     ,productcategoryid
-    ,name as subcategoria
+    ,name
 
 
 

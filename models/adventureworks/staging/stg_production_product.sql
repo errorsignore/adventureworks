@@ -1,7 +1,7 @@
 with source_data as(
     SELECT
     productid
-    ,name as produto
+    ,name
     ,productsubcategoryid
     ,productmodelid
 
