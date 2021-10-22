@@ -7,7 +7,7 @@ with employees as (
 
     , transformed as(
         select
-            row_number() over (order by e.businessentityid) as business_sk -- auto-incremental surrogate key
+            row_number() over (order by e.businessentityid) as employee_sk -- auto-incremental surrogate key
             , e.businessentityid
             , edh.departmentid
             , edh.shiftid

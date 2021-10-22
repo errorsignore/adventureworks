@@ -1,7 +1,7 @@
 with source_data as(
     SELECT
     businessentityid
-    ,name as fornecedor
+    ,name
 
 
 

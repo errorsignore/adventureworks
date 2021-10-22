@@ -2,7 +2,7 @@ with source_data as(
     SELECT
     stateprovinceid
     ,countryregioncode
-    ,name as estado
+    ,name
 
 
 

@@ -1,7 +1,7 @@
 with source_data as(
     SELECT
     countryregioncode
-    ,name as pais
+    ,name
 
 
 

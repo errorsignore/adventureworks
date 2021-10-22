@@ -1,7 +1,7 @@
 with source_data as(
     SELECT
     shipmethodid
-    ,name as transportadora
+    ,name
 
 
 
