@@ -7,6 +7,7 @@ with source_data as(
     ,customerid
     ,billtoaddressid
     ,shiptoaddressid
+    ,salespersonid
     ,shipmethodid
     ,creditcardid
     ,subtotal

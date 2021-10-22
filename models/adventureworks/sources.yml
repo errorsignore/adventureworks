@@ -21,12 +21,6 @@ sources:
             tests:
                 - unique
                 - not_null
-      - name: humanresources_employeepayhistory
-        columns:
-          - name: businessentityid
-            tests:
-                - unique
-                - not_null
       - name: humanresources_shift
         columns:
           - name: shiftid
@@ -134,4 +128,10 @@ sources:
           - name: businessentityid
             tests:
                 - unique
-                - not_null                                                                                                               
+                - not_null        
+      - name: purchasing_productvendor
+        columns:
+          - name: productid
+            tests:
+                - unique
+                - not_null                                                                                                     
