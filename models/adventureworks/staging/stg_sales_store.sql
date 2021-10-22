@@ -1,7 +1,7 @@
 with source_data as(
     SELECT
     businessentityid
-    ,name as revendedor
+    ,name
 
     from {{source('adventureworks', 'sales_store')}}
 )
