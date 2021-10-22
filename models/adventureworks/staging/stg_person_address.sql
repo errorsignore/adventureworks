@@ -1,7 +1,7 @@
 with source_data as(
     SELECT
     addressid
-    ,city as cidade
+    ,city
     ,stateprovinceid
 
 

@@ -1,8 +1,8 @@
 with source_data as(
     SELECT
     salesreasonid
-    ,name as motivo
-    ,reasontype as razaomotivo
+    ,name
+    ,reasontype
 
     from {{source('adventureworks', 'sales_salesreason')}}
 )

@@ -1,7 +1,7 @@
 with source_data as(
     SELECT
     creditcardid
-    ,cardtype as cartao_de_credito
+    ,cardtype
 
 
 
