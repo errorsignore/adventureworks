@@ -20,10 +20,9 @@ models:
     -   name: fact_sales
         description: "Nossa tabela de produtos"
         columns:
-            -   name: salesorderid
+            -   name: id_do_pedido
                 description: "A chave primária original da tabela"
                 tests:
-                    - unique
                     - not_null        
     -   name: dim_transportadora
         description: "Nossos transportadores"
@@ -36,7 +35,7 @@ models:
     -   name: dim_fornecedor
         description: "Nossos fornecedores"
         columns:
-            -   name: businessentityid
+            -   name: fornecedor_sk
                 description: "A chave primária original da tabela"
                 tests:
                     - unique

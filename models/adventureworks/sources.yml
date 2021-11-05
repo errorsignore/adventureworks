@@ -19,7 +19,6 @@ sources:
         columns:
           - name: businessentityid
             tests:
-                - unique
                 - not_null
       - name: humanresources_shift
         columns:
@@ -79,19 +78,16 @@ sources:
         columns:
           - name: salesorderid
             tests:
-                - unique
                 - not_null
       - name: sales_orders
         columns:
           - name: salesorderid
             tests:
-                - unique
                 - not_null 
       - name: sales_orderheadersalesreason
         columns:
           - name: salesorderid
             tests:
-                - unique
                 - not_null
       - name: sales_salesreason
         columns:
@@ -133,5 +129,4 @@ sources:
         columns:
           - name: productid
             tests:
-                - unique
                 - not_null                                                                                                     
